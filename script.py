@@ -77,6 +77,7 @@ if disconnected_rule == "No action":
 else:
         device_disconnected = disconnected_rule
 
+print "Try connecting/disconnecting device %s now" %device
 
 # Handle dbus signal:
 def process_signal(property, message):
